@@ -1,4 +1,4 @@
-number: int = float(input("Введите число: "))
+number: float = float(input("Введите число: "))
 
 square_root: float = number ** 0.5
 

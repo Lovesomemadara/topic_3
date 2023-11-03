@@ -1,4 +1,4 @@
-celsius: int = int(input("Введите температуру в градусах Цельсия: "))
+celsius: float = float(input("Введите температуру в градусах Цельсия: "))
 
 fahrenheit: float = (celsius * 1.8) + 32
 
