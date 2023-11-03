@@ -1,6 +1,6 @@
-name = ...  # здесь Ваш код
-age = ...  # здесь Ваш код
+name: str = input("Введите ваше имя: ")
+age: int = input("Введите ваш возраст: ")
 
-greeting = ...  # здесь Ваш код
+greeting: str = f"Привет, {name}! Тебе уже {age} лет!"
 
-print(...)  # допишите код
+print(greeting)
